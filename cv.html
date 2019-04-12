@@ -1,0 +1,12 @@
+<html>
+
+<iframe id="mainframe" name="mainframe" marginwidth="0" marginheight="0" src="https://zh.wikipedia.org/wiki/%E9%99%B3%E5%86%A0%E5%B8%8C" frameborder="0" width="100%" scrolling="auto" height="100%"></iframe>
+<script type="text/javascript">
+
+$("#mainframe").load(function () {
+var mainheight = $(this).contents().find("body").height() + 30;
+ $(this).height(mainheight);
+});
+</script>
+
+</html>
